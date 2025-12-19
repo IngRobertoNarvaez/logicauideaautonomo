@@ -26,25 +26,40 @@ Permite organizar los archivos del proyecto y ejecutar scripts directamente.
 Lo imp0ortante usado para el codigo 
 
 import pygame: importar la biblioteca Pygame Sirve para crear el juego en este caso
+
 import sys: importar el módulo del sistema que nos sirve para el cierre correcto
+
 import random: importar el módulo de funciones aleatorias que nos sirve para el movimiento de la pelota
+
 pygame.init(): Es la función encargada de iniciar todos los módulos de Pygame como son ventanas, fuentes, sonido, eventos, permitiendo que el resto del juego funcione correctamente.
+
 WIDTH y HEIGHT para establecer el tamaño de la pantalla.
+
 pygame.display.set_mode() se usó para crear la ventana del juego.
+
 pygame.display.set_caption() sirvió para ponerle el nombre “PONG” a la ventana.
+
 clock = pygame.time.Clock() controla la velocidad del juego
+
 player_paddle = pygame.Rect:  crea la paleta del jugador y la coloca en la izquierda.
+
 enemy_paddle = pygame.Rect: crea la paleta del enemigo y la coloca en la derecha.
+
 ball = pygame.Rect: crea la pelota en el centro.
+
 ball_dx:  dirección horizontal inicial (derecha o izquierda).
+
 ball_dy: dirección vertical inicial (arriba o abajo).
+
 draw_menu()
 limpia la pantalla
 dibuja el título “PONG”
 dibuja opciones “Jugar” y “Salir”
+
 reset_ball()
 pone la pelota en el centro
 le da nueva dirección aleatoria
+
 main_game()
 mueve paletas
 mueve pelota
