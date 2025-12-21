@@ -1,3 +1,8 @@
+Link Canva Presentacion
+
+https://www.canva.com/design/DAG7t2NRklY/jhRHHuxn1yw3z8_MEDkl6w/edit?utm_content=DAG7t2NRklY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 Dentro del proyecto se uso el lenguaje Python para resolver el final del proyecto donde de igual forma se uno librerias de Py
 
 El propósito principal de tu juego es crear una simulación interactiva que demuestre conceptos fundamentales de programación, lógica y diseño de videojuegos en Python usando Pygame.
@@ -67,4 +72,15 @@ detecta rebotes
 suma puntos
 dibuja todo
 detecta ganador
+
+En mi caso para poder ejecutar el proyecto Pong tuve que recurrir al PowerShell debido a que una mala instalacion y configuracion del PY y VSCODE no me deja emular en el terminal del mismo y par lograr esa
+emulacin se uso lo siguiente 
+
+Python
+
+cd "C:\Users\narva\Documents\Proyecto final"
+dir
+py -3.12 pong.py
+
+
 
